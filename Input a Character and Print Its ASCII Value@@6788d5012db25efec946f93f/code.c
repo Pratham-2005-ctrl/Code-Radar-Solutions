@@ -2,8 +2,8 @@
 #include<stdio.h>
 int main(){
     char value;
-    int ascii;
+    
     scanf("%c",&value);
-    printf("ASCII Value: %d",ascii);
+    printf("ASCII Value: %d",value);
     return 0;
 }
