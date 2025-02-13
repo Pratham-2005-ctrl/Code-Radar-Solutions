@@ -3,9 +3,9 @@
 int main(){
     int value;
     int value2; 
-    int sum = value + value2;
+    
     scanf("%d",&value);
     scanf("%d",&value2);
-    printf("Sum: %d", sum );
+    printf("Sum: %d", value + value2 );
     return 0;
 }
