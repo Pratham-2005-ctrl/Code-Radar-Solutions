@@ -4,6 +4,8 @@ int(){
     char name;
     int age;
     char hobby;
-    scanf("%s %d %s", &name, &age, &hobby);
-    printf("Name:%s/n Age");
+    scanf("%s ", &name);
+    scanf("%d ", &age);
+    scanf("%s ", &hobby);
+    printf("Name:%s\n");
 }
