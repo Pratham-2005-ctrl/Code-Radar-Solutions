@@ -1,14 +1,11 @@
 // Your code here...
-#include<stdio.h>
-int main(){
-    float value;
-    float value2;
-    float value3;
-    float sum= value + value2 + value3;
-    float average=sum//3;
-    scanf("%f",&value);
-    scanf("%f",&value2);
-    scanf("%f",&value3);
-    printf("Average: %.2f",average);
+#include <stdio.h>
+
+int main() {
+    float num1, num2, num3, average;
+    scanf("%f %f %f", &num1, &num2, &num3);
+    average = (num1 + num2 + num3) / 3;
+    printf("The average of %.2f, %.2f, and %.2f is %.2f\n", num1, num2, num3, average);
+
     return 0;
 }
