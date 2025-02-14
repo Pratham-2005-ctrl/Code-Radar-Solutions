@@ -1,6 +1,6 @@
 // Your code here...
-#include<stdio.h>
-int(){
+#include <stdio.h>
+int main(){
     char name;
     int age;
     char hobby;
