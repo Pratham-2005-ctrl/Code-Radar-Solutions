@@ -5,5 +5,5 @@ int(){
     int age;
     char hobby;
     scanf("%s %d %s",&name,&age,&hobby);
-    printf("Name:%s/nAge")
+    printf("Name:%s/n Age");
 }
