@@ -3,7 +3,8 @@
 int main(){
     int one;
     int two;
-    scanf("%d %d", &one,&two);
+    scanf("%d", &one);
+    scanf("%d",&two)
     if (one > two){
         printf("True")
     }
