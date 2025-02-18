@@ -1,10 +1,10 @@
 // Your code here...
-#include<stdio.h>
+#include <stdio.h>
 int main(){
     int one;
     int two;
     scanf("%d", &one);
-    scanf("%d" ,&two)
+    scanf("%d" ,&two);
     if (one > two){
         printf("True \n")
     }
