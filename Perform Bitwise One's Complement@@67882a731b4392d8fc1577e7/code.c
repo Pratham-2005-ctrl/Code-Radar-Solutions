@@ -2,11 +2,10 @@
 #include <stdio.h>
 int main (){
     int one ;
-    int two; 
     int result;
+    
     scanf("%d", &one);
-    scanf("%d" , &two);
-    result = one ~ two;
+    result= ~one;
     printf("%d", result);
     return 0;
 }
