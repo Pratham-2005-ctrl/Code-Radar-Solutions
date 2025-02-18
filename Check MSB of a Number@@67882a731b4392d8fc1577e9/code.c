@@ -1,13 +1,12 @@
 // Your code here...#include <stdio.h>
 #include <stdio.h>
-#include <limits.h> // For INT_MAX and INT_MIN
-
 int main() {
     int num;
     scanf("%d", &num);
     if (num & (1 << (sizeof(int) * 8 - 1))) {
         printf("Set");
-    } else {
+    } 
+    else {
         printf("Not Set ",);
     }
 
