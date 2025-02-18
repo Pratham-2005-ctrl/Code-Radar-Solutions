@@ -8,7 +8,7 @@ int main(){
     if (one > 0 && two < 0){
         printf("True \n");
     }
-    elseif(one == 0 & two ==){
+    else if(one == 0 & two ==){
         printf("True \n");
 
     }
