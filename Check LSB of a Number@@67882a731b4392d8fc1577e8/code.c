@@ -1,8 +1,8 @@
 // Your code here...   
- #include <stdio.h>
+#include <stdio.h>
 int main (){
     int one ;
-    scanf("%d", &one)
+    scanf("%d", &one);
     if (one & 1){
         printf("set");
     }
