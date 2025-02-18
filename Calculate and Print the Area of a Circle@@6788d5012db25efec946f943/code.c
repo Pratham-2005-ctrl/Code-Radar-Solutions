@@ -3,5 +3,5 @@
 int main(){
     float radius;
     scanf("%f",&radius);
-    printf("ARea: %f",radius * radius* 3.14);
+    printf("ARea: %.2f",radius * radius* 3.14);
 }
