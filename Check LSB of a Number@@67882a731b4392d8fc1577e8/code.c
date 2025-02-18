@@ -1,4 +1,5 @@
-// Your code here...    #include <stdio.h>
+// Your code here...   
+ #include <stdio.h>
 int main (){
     int one ;
     scanf("%d", &one)
@@ -6,7 +7,7 @@ int main (){
         printf("set");
     }
     else{
-        printf("Not Set")
+        printf("Not Set");
     }
     return 0;
 }
