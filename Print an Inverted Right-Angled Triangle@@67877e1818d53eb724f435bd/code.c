@@ -4,11 +4,12 @@ int main(){
     printf("");
     scanf("%d",&rows);
     for (int i ;i>=rows ; i-- )
-    {
-        for ( int j=1 ; j<=i ; j++)
-        {
+    { 
+        int j =1;
+        for (j<=i ; j++){
             printf("*");
+
         }
-    printf("\n");
+        printf("\n");
     }
 }
