@@ -3,11 +3,11 @@
 int main(){
     int n;
     printf("");
-    scanf("%d",&n)
+    scanf("%d",&n);
     if (n%2 == 0){
-        printf("Even")
+        printf("Even");
     }
     else{
-        printf("odd")
+        printf("odd");
     }
 }
